@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Heebo:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: rgb(184, 184, 184);
+    overflow-x: hidden;
+
+}
+
+.cnt{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar {
+    width: 90%;
+    padding: 12px;
+    display: flex;
+    margin: 28px 0px 5px 0px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(58, 52, 52);
+    justify-content: center;
+    border-radius: 3px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 9px;
+    margin: 4px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(42, 36, 36);
+    border-radius: 3px;
+}
+
+.nav a:hover {
+    color: aqua;
+}
+
+.line {
+    width: 88%;
+    height: 6px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: rgba(248, 238, 238, 0.386);
+}
+.icecream{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:50px;
+}
+.sec_page_row{
+    width: 40%;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+}
+.member{
+    margin-bottom: 30px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+}
+.member_below{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.like_icon{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.like ,.dislike{
+    width: 10%;
+    font-size: 25px;
+    padding: 6px 12px;
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: rgb(31, 183, 31);
+}
+.dislike{
+    margin-top: 2px;
+    color: red;
+}
+
+article{
+    width: 85%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec_1{
+    width: 100%;
+}
+.sec_1 img{
+   width: 50%;
+   /* margin-right: 20px; */
+}
+.ice_img{
+    width: 40%;
+    margin-right: 100px;
+}
+
+.ice_img img{
+    width: 100%;
+}
+.sec_2{
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+footer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#343333;
+    color: wheat;
+    border: 1px solid black;
+    margin-top: 8px;
+    border-radius: 3px;
+
+}
+.about{
+    margin:10px 0px 10px 40px;
+}
+.about a
+{
+    font-size:12px;
+    margin: 5px;
+    text-decoration: none;
+    color: wheat;
+}
+ .about a:hover {
+    color: aqua;
+}
+.follow{
+    font-size: 12px;
+    text-align: center;
+    margin: 12px 0px 12px 0px;
+}
+ .social_meadia {
+    
+    text-align: center;
+ }
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 37px;
+    border-radius: 27px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.8;
+} 
+.fa:hover{
+    color: aqua;
+}
+.copyright{
+    font-size: small;
+}
+.copy{
+    margin:20px 0px 30px 0px;
+    color: wheat;
+    font-size: small;
+    font-size: smaller;
+}
+.copy a{
+    color: wheat;
+    font-size: small;
+    text-decoration: none;
+}
+.copy a:hover {
+    color: aqua;
+}
+
+.count{
+    width: 37%;
+    display: none;
+    /* border: 1px solid red; */
+}
+
+.number{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+}
+
+.total{
+    padding: 1px 2px;
+    box-shadow: 0 0 5px rgb(86, 85, 85);
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+    /* font-size:; */
+}

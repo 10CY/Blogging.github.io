@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(156, 156, 156, 0.507);
+}
+h5{
+    margin:10px 0px 0px 45px;
+    color: rgb(48, 44, 44);
+    opacity: .7;
+}
+.container{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.text_top{
+    text-align: center;
+    margin:25px 0px 10px 0px;
+    width: 29%;
+    opacity: .7;
+}
+.facebook {
+    width: 20%;
+    display: flex;
+    margin: 10px 0px;
+    border-radius: 3px;
+    background-color: rgb(70,70, 193);
+   
+}
+.fa-facebook-f{
+    width: 25px;
+    text-align: center;
+    border-right: 1px solid black;
+    padding: 4px;
+    color: white;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px ;
+    font-weight: 600;
+    background-color: rgb(70, 70, 193);
+}
+.sign_up_f {
+    width: 100%;
+    color: white;
+    margin: 3px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.Google{
+    width: 20%;
+    display: flex;   
+}
+#google_img{
+    width:60%;
+    height: 100%;
+    text-align: center;
+    padding: 3px;
+    margin-left: 16px;
+    background-color: white;
+    border: none;
+    opacity: .7;
+}
+.sign_up_g{
+    width: 120%;
+    text-align: center;
+    background-color: white;
+    margin-right: 15px;
+    padding-top:6px;
+    font-size: small;
+    font-weight: 600;
+    opacity: .7;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sign_up_f a{
+    color: white;
+}
+.sign_up_g a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.account{
+    opacity: .7;
+    margin: 25px 0px 10px 0px;
+}
+.sign_in{
+    display: flex;
+    border-radius: 3px;
+    background-color: rgb(70, 70, 193);
+    border: none;
+    margin: 10px 0px;
+    padding-bottom:2px;
+}
+.sign{
+    width: 110%;
+    padding: 2px;
+    margin-top: 3px;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.sign a{
+    color: white;
+    margin: 4px;
+    padding-right: 2px;
+}
+.sign_in_g{
+    display: flex;
+    width: 9%;
+    opacity: .7;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    border: none;
+}
+#google_img_last{
+    width: 77%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.sign_g{
+    width: 100%;
+    margin-top: 6px;
+    border-radius: 3px;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} 
+.footer_text{
+    margin-top: 40px;
+    font-size: 15px;
+    opacity: .7;
+    text-align: center;
+}

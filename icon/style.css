@@ -1,0 +1,16 @@
+.fa{
+    width: 10px;
+    height: 10px;
+    color: aqua;
+    background-color: blue;
+    font-family: font awesome;
+}
+.ico{
+    width: 1%;
+    color: white;
+    /* height: 10px; */
+    background-color: rgb(41, 94, 228);
+}
+.icon{
+    font-family: font awesome;
+}
